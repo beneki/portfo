@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title %}Home Page{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<!-- Add your site or app content here -->
+<div class="hero-full-container background-image-container white-text-container"
+    style="background-image: url('./static/assets/images/space.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="hero-full-wrapper">
+                    <div class="text-content">
+                        <h1>Hello,<br>
+                            <span id="typed-strings">
+                                <span>I'm Hossein Ekramiandarabi</span>
+                                <span>Web Engineer</span>
+                                <span>Working at Maybank in Malaysia</span>
+                            </span>
+                            <span id="typed"></span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
